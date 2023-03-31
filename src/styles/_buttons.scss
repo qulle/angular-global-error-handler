@@ -1,0 +1,90 @@
+.app-button {
+    margin: 0;
+    background-color: #6397c2;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    max-width: 300px;
+    font-size: 1.125rem;
+    padding: 0.75rem 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+
+    &--center {
+        margin: 0 auto;
+    }
+
+    &--large {
+        padding: 1rem 1rem;
+        font-size: 1.25rem;
+    }
+
+    &--medium {
+        padding: 0.75rem 0.75rem;
+        font-size: 1rem;
+    }
+
+    &--small {
+        padding: 0.5rem 0.5rem;
+        font-size: 0.95rem;
+    }
+
+    &--xsmall {
+        padding: 0.25rem 0.25rem;
+        font-size: 0.8rem;
+    }
+
+    &--full-bleed {
+        width: 100%;
+    }
+
+    &--primary {
+        background-color: #6397c2;
+        color: #ffffff;
+
+        &:disabled {
+            background-color: #6397c2cc;
+            cursor: default;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 3px rgba(#87afe8, 0.5);
+        }
+    }
+
+    &--secondary {
+        background-color: #ffffff;
+        border: 1px solid #3b4352;
+
+        &:disabled {
+            cursor: default;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 3px rgba(#3b4352, 0.5);
+        }
+    }
+
+    &--danger {
+        background-color: #d6001c;
+        color: #ffffff;
+
+        &:disabled {
+            background-color: #d6001ccc;
+            cursor: default;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 3px rgba(#d6001c, 0.5);
+        }
+    }
+
+    &--icon {
+        padding: 0;
+        background-color: transparent;
+
+        &:focus {
+            box-shadow: 0 0 0 3px rgba(#3b4352, 0.5);
+        }
+    }
+}

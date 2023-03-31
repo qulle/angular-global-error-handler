@@ -1,0 +1,17 @@
+.app {
+    height: 100%;
+    padding: 1rem;
+
+    &__header {
+        margin: 0;
+    }
+
+    &__section {
+        margin-top: 1rem;
+
+        .app-button {
+            display: inline-block;
+            margin: 1rem 1rem 0 0;
+        }
+    }
+}
